@@ -1,0 +1,92 @@
+.images-detail{ display: flex;
+    width:100%;
+    height:500px;
+    animation: 3s ease-in-out infinite  alternate-reverse both Motion;
+    border-radius: 40%;
+    box-shadow: 12px 11px rgba(0,0,0,.25);
+}
+
+
+@keyframes Motion {
+ 0%{
+ transform: translateY(25px);
+ }
+
+ 100% {
+     transform: translateY(10px);
+ }
+}
+
+#header{ width: 100%;
+    height:100%;
+    margin-top: 70px;
+}
+
+#header h1{
+    font-size: 45px;
+}
+.brand-name{
+    color:peru;
+
+}
+.btn-get-started{border:2px solid #3398db;
+    display:inline-block;
+    color:#3398db;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px 30px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.btn-get-started:hover{background-color: #3398db;
+    color: white;
+}
+@media (max-Width:767px) {
+   h2{
+    text-align: center;
+   } 
+   #header{
+    row-gap: 10px;
+   }
+
+  
+.btn-get-started{
+    margin:0px 60px;
+    text-align:justify;
+    transition: 0.5s;
+    width: max-content;
+   }
+    
+   .btn-get-started:hover{ 
+    background-color: #3398db;
+    color: white;
+}
+
+}
+.type-writer {
+    color: #fff;
+    font-family: monospace;
+    font-size: 10px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end) infinite,
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

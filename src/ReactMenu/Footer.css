@@ -1,0 +1,21 @@
+#footerpara {
+    /* position: absolute; */
+    font-size: 0.71rem;
+    padding: 1.5em 0.75rem;
+    color: black;
+    width: 100%;
+    background-color: inherit;
+    height: 50px;
+    /* bottom: -16px; */
+}
+
+footer-detail {
+    /* bottom: 0; */
+    font-size: 0.71rem;
+}
+
+@media (max-width:767px) {
+    /* p {
+        bottom: -721px;
+    } */
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    min-height: 95vh;
+}
+
+.checkbtn > label{
+    margin-top: 6px;
+}
+
+.btnform{
+    margin: 0px 44px;
+}
+
+@media (max-Width:767px){
+    .btnform{
+        margin: -15px 24px 0 74px;
+    padding-top:10px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    
+}
